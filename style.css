@@ -1,0 +1,58 @@
+/* THIS LINE LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+/* Start your base/mobile styles here */
+
+<style>html, body {
+  /* Sets default font-size to 16px, ensuring 1em = 16px; */
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Mukta Mahee', sans-serif;
+  text-align: center;
+  color: 0E400A;
+  line-height: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Mukta Mahee', sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 95%;
+}
+
+.caption {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: -15px;
+  margin: auto;
+  width: 90%;
+}
+
+.byline {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 16px;
+  border-bottom: 1px solid #000000
+}
+
+#maincontent {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Tablet/Desktop overrides */
+
+</style>
